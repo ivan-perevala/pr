@@ -13,4 +13,5 @@ html_templates_path = ["_templates"]
 html_theme_options = {
     "display_version": True,
     "style_external_links": True,
+    "logo_only": True,
 }
