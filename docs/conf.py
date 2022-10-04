@@ -30,5 +30,6 @@ html_show_sourcelink = True
 html_templates_path = ["_templates"]
 html_theme_options = {
     'logo_only': True,
+    "display_version": False,
     'navigation_depth': 5,
 }
