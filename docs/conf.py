@@ -6,12 +6,15 @@ StandaloneHTMLBuilder.supported_image_types = [
     "image/jpeg",
 ]
 
-project = 'PR'
+project = u'PR PR PR PR PR PR PR PR PR PR'
 copyright = '2020, BHQ'
 author = 'BHQ'
 
 release = '0.1'
 version = '0.1.0'
+
+source_suffix = '.rst'
+master_doc = 'index'
 
 extensions = [
     'sphinx.ext.duration',
@@ -23,9 +26,9 @@ extensions = [
 
 html_theme = "sphinx_rtd_theme"
 html_logo = "bhq_logo_color_v1.svg"
-html_static_path = ["_static"]
+html_show_sourcelink = True
 html_templates_path = ["_templates"]
 html_theme_options = {
-    "display_version": True,
-    "style_external_links": True,
+    'logo_only': True,
+    'navigation_depth': 5,
 }
