@@ -8,8 +8,9 @@ StandaloneHTMLBuilder.supported_image_types = [
 
 html_theme = "sphinx_rtd_theme"
 html_logo = "bhq_logo_color_v1.svg"
+html_static_path = ["_static"]
+html_templates_path = ["_templates"]
 html_theme_options = {
     "display_version": True,
     "style_external_links": True,
-    "logo_only": True,
 }
