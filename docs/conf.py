@@ -6,6 +6,13 @@ StandaloneHTMLBuilder.supported_image_types = [
     "image/jpeg",
 ]
 
+project = 'PR'
+copyright = '2020, BHQ'
+author = 'BHQ'
+
+release = '0.1'
+version = '0.1.0'
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
